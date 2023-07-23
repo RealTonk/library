@@ -5,6 +5,7 @@ Short linoria gui
 Let create library
 ```lua
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/RealTonk/KeepScripts/main/Librarys/Evolution/Moblie/XenonUi.lua"))()
+local window = library:new({textsize = 13.5, font = Enum.Font.RobotoMono, name = "Kenei UI", color = Color3.fromRGB(0, 64, 255)})
 ```
 ## Create page
 ```lua
